@@ -29,7 +29,7 @@ function PokDetailsCard({ pokemon, onClose }) {
 
           <div className="modal-info">
             <div className="image-name">
-              <img className="modal-image" src={image} />
+              <img className="modal-image" src={image} alt="modelimage" />
               <h3 className="modal-name">{name}</h3>
             </div>
             <div className={`pokemon-data ${pokemon.type}`}>
