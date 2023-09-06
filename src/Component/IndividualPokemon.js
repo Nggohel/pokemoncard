@@ -3,7 +3,7 @@ import PokDetailsCard from "./PokDetailsCard";
 import "./Style/Individual.css";
 
 function IndividualPokemon({ pokemon }) {
-  const { id, name, type, image, stats, weight, height } = pokemon;
+  const { id, name, type, image } = pokemon;
 
   const [showModal, setShowModal] = useState(false);
 
