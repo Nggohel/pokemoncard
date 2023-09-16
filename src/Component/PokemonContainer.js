@@ -28,7 +28,7 @@ function PokemonContainer() {
   // It will behave like componentDidMount
   useEffect(() => {
     getPokemonsDetails();
-  });
+  }, []);
 
   return (
     <>

@@ -40,31 +40,88 @@ function PokDetailsCard({ pokemon, onClose }) {
               </div>
 
               <div className="column">
-                <span>Stats1:{stat1}</span>
-                <br></br>
-                <span>Stats2:{stat2}</span>
-                <br></br>
-                <span>Stats3:{stat3}</span>
-                <br></br>
-                <span>Stats4:{stat4}</span>
-                <br></br>
-                <span>Stats5:{stat5}</span>
-                <br></br>
-                <span>Stats6:{stat6}</span>
+                <div className="row">
+                  <span>
+                    <b>Stats1:</b>
+                  </span>
+                  <span>{stat1}</span>
+                  <br></br>
+                </div>
+
+                <div className="row">
+                  <span>
+                    <b>Stats2:</b>
+                  </span>
+                  <span>{stat2}</span>
+                  <br></br>
+                </div>
+
+                <div className="row">
+                  <span>
+                    <b>Stats3:</b>
+                  </span>
+                  <span>{stat3}</span>
+                  <br></br>
+                </div>
+
+                <div className="row">
+                  <span>
+                    <b>Stats4:</b>
+                  </span>
+                  <span className="text">{stat4}</span>
+                  <br></br>
+                </div>
+
+                <div className="row">
+                  <span>
+                    <b>Stats5:</b>
+                  </span>
+                  <span className="text">{stat5}</span>
+                  <br></br>
+                </div>
+
+                <div className="row">
+                  <span>
+                    <b>Stats6:</b>
+                  </span>
+                  <span>{stat6}</span>
+                  <br></br>
+                </div>
               </div>
 
               <div className="column">
-                <span>Bs1:{baseStat1}</span>
-                <br></br>
-                <span>Bs2:{baseStat2}</span>
-                <br></br>
-                <span>Bs3:{baseStat3}</span>
-                <br></br>
-                <span>Bs4:{baseStat4}</span>
-                <br></br>
-                <span>Bs5:{baseStat5}</span>
-                <br></br>
-                <span>Bs6:{baseStat6}</span>
+                <div className="row1">
+                  <span>
+                    <b>Bs1:</b>
+                  </span>
+                  <span>{baseStat1}</span>
+                  <br></br>
+                  <span>
+                    <b>Bs2:</b>
+                  </span>
+                  <span>{baseStat2}</span>
+                  <br></br>
+                  <span>
+                    <b>Bs3:</b>
+                  </span>
+                  <span>{baseStat3}</span>
+                  <br></br>
+                  <span>
+                    <b>Bs4:</b>
+                  </span>
+                  <span>{baseStat4}</span>
+                  <br></br>
+                  <span>
+                    <b>Bs5:</b>
+                  </span>
+                  <span>{baseStat5}</span>
+                  <br></br>
+                  <span>
+                    <b>Bs6:</b>
+                  </span>
+                  <span>{baseStat6}</span>
+                  <br></br>
+                </div>
               </div>
             </div>
           </div>
